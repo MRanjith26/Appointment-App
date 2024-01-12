@@ -1,0 +1,124 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+  border-radius: 13px;
+  padding: 30px;
+}
+.details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  border-bottom: 1px solid #b5b7c4;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 34px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form {
+  font-family: 'Roboto';
+  font-size: 15px;
+  height: 30px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  outline: none;
+}
+.form-label {
+  font-family: 'Roboto';
+  font-size: 11px;
+  padding-bottom: 9px;
+  color: #b5b7c4;
+}
+.form-button {
+  align-self: flex-start;
+  padding: 5px 14px;
+  border-radius: 6px;
+  border: none;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.image-container {
+  margin-left: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.form-image {
+  width: 80%;
+}
+.content-container {
+  max-width: 900px;
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.fav-button {
+  background-color: #ffffff;
+  border: 1px solid #8b5cf6;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  list-style: none;
+  padding: 0px;
+}
+.str-button {
+  font-size: 12px;
+  padding: 5px 8px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 12px;
+}
+.act-button {
+  color: #ffffff;
+  background-color: #9897f0;
+  border: none;
+}
+
+@media screen and (max-width: 576px) {
+  .form-image {
+    display: none;
+  }
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .title {
+    font-size: 33px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}
